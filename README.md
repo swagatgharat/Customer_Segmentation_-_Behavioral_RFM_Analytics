@@ -113,8 +113,8 @@ The platform automatically computes, evaluates, and renders 5 publication-ready 
 ### Figure 1: 2D Principal Component Analysis (PCA) Customer Space
 
 <p align="center">
-  <a href="./output/pca_clusters_2d.png">
-    <img src="./output/pca_clusters_2d.png" alt="Figure 1: 2D PCA Customer Clusters" width="100%" />
+  <a href="output/pca_clusters_2d.png">
+    <img src="output/pca_clusters_2d.png" alt="Figure 1: 2D PCA Customer Clusters" width="100%" />
   </a>
   <br>
   <em><b>Figure 1: Customer Clusters Visualized via 2D PCA</b> — 4,338 customer accounts projected onto 2 principal components capturing 86.0% of total variance. Clear geometric segregation confirms distinct behavioral boundaries between Champions, Loyalists, Recent Buyers, and Dormant accounts. (Click image to view in full resolution)</em>
@@ -133,8 +133,8 @@ The platform automatically computes, evaluates, and renders 5 publication-ready 
 ### Figure 2: Customer Base vs. Revenue Contribution (The Pareto Principle)
 
 <p align="center">
-  <a href="./output/cluster_revenue_breakdown.png">
-    <img src="./output/cluster_revenue_breakdown.png" alt="Figure 2: Customer Base vs Revenue Contribution" width="100%" />
+  <a href="output/cluster_revenue_breakdown.png">
+    <img src="output/cluster_revenue_breakdown.png" alt="Figure 2: Customer Base vs Revenue Contribution" width="100%" />
   </a>
   <br>
   <em><b>Figure 2: Customer Base vs. Revenue Contribution (The Pareto Principle)</b> — Dual-bar comparative analysis illustrating the dramatic disproportion between customer headcount (gray) and revenue contribution (green). (Click image to view in full resolution)</em>
@@ -152,8 +152,8 @@ The platform automatically computes, evaluates, and renders 5 publication-ready 
 ### Figure 3: Standardized RFM Profiles (Snake Plot)
 
 <p align="center">
-  <a href="./output/snake_plot_clusters.png">
-    <img src="./output/snake_plot_clusters.png" alt="Figure 3: Standardized RFM Profiles Snake Plot" width="100%" />
+  <a href="output/snake_plot_clusters.png">
+    <img src="output/snake_plot_clusters.png" alt="Figure 3: Standardized RFM Profiles Snake Plot" width="100%" />
   </a>
   <br>
   <em><b>Figure 3: Customer Segment RFM Profiles (Snake Plot)</b> — Standardized Z-Score centroid trajectories across Recency, Frequency, and Monetary dimensions for each identified persona. (Click image to view in full resolution)</em>
@@ -171,8 +171,8 @@ The platform automatically computes, evaluates, and renders 5 publication-ready 
 ### Figure 4: Optimal $k$ Selection — Inertia Elbow & Silhouette Score
 
 <p align="center">
-  <a href="./output/optimal_k_selection.png">
-    <img src="./output/optimal_k_selection.png" alt="Figure 4: Optimal k Selection" width="100%" />
+  <a href="output/optimal_k_selection.png">
+    <img src="output/optimal_k_selection.png" alt="Figure 4: Optimal k Selection" width="100%" />
   </a>
   <br>
   <em><b>Figure 4: Optimal Cluster Evaluation: Elbow Method & Silhouette Coefficient</b> — Within-Cluster Sum of Squares (Inertia, blue) and Mean Silhouette Score (orange) plotted across k=2 to k=8. (Click image to view in full resolution)</em>
@@ -180,7 +180,7 @@ The platform automatically computes, evaluates, and renders 5 publication-ready 
 
 **Core Purpose**: Defends the selection of $k=4$ against over-segmentation and under-segmentation.
 
-- **Elbow Point**: The rate of decrease in Within-Cluster Sum of Squares (WCSS / Inertia) decelerates notably at $k=4$, forming the characteristic elbow elbow.
+- **Elbow Point**: The rate of decrease in Within-Cluster Sum of Squares (WCSS / Inertia) decelerates notably at $k=4$, forming the characteristic elbow curve.
 - **Silhouette Trade-off**: While mathematical silhouette is highest at $k=2$, two clusters merely split high vs low spenders without actionable behavioral nuances. $k=4$ maintains strong cohesion while creating distinct commercial archetypes (VIP, Loyal, New, Churning).
 
 ---
@@ -188,8 +188,8 @@ The platform automatically computes, evaluates, and renders 5 publication-ready 
 ### Figure 5: Distribution Skewness & Log Normalization
 
 <p align="center">
-  <a href="./output/rfm_distributions_skewness.png">
-    <img src="./output/rfm_distributions_skewness.png" alt="Figure 5: Skewness Correction" width="100%" />
+  <a href="output/rfm_distributions_skewness.png">
+    <img src="output/rfm_distributions_skewness.png" alt="Figure 5: Skewness Correction" width="100%" />
   </a>
   <br>
   <em><b>Figure 5: Raw vs. Log-Transformed RFM Feature Distributions</b> — Top row shows extreme positive right-skewness in raw transactional data; bottom row demonstrates the quasi-normal Gaussian bells achieved via natural log transformation log(x + 1). (Click image to view in full resolution)</em>
